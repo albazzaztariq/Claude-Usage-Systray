@@ -1,0 +1,28 @@
+
+============================================================
+2026-03-29 23:20:41.747248
+Traceback (most recent call last):
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 78, in <module>
+    class _IPropertyStore(comtypes.IUnknown):
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 83, in _IPropertyStore
+    COMMETHOD([], HRESULT, "GetValue", (["in"], ctypes.POINTER(_PROPERTYKEY), "key"), (["out"], ctypes.POINTER(comtypes.VARIANT), "pv")),
+                                                                                                               ^^^^^^^^^^^^^^^^
+AttributeError: module 'comtypes' has no attribute 'VARIANT'
+
+============================================================
+2026-03-30 00:18:21.576331
+Traceback (most recent call last):
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 1765, in <module>
+    main()
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 1750, in main
+    root = create_taskbar_widget()
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 659, in create_taskbar_widget
+    update_taskbar_text()
+  File "C:\Users\azt12\OneDrive\Documents\Computing\Helpful Dev Tools\Claude-Usage-Systray\Source\claude_systray.py", line 796, in update_taskbar_text
+    if taskbar_widget._time_visible:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\azt12\AppData\Local\Programs\Python\Python312\Lib\tkinter\__init__.py", line 2433, in __getattr__
+    return getattr(self.tk, attr)
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_tkinter.tkapp' object has no attribute '_time_visible'

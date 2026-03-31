@@ -1,0 +1,23 @@
+{
+  "start_on_startup": false,
+  "background_collection": true,
+  "collector_interval_sec": 600,
+  "scale_pct": 100,
+  "poll_interval_sec": 240,
+  "show_last_refresh": true,
+  "refresh_display_mode": "exact",
+  "show_depletion_estimates": true,
+  "show_session": true,
+  "show_weekly": true,
+  "show_sonnet": true,
+  "show_reddit_ticker": true,
+  "widget_x": 1442,
+  "widget_y": 1136,
+  "widget_w": 95,
+  "widget_h": 65,
+  "bg_color": "#1e1e2e",
+  "color_sufficient": "#64c864",
+  "color_partial": "#e6c832",
+  "color_depleted": "#e65050",
+  "color_text": "#ffffff"
+}

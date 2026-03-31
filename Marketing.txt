@@ -1,7 +1,0 @@
-Claude Usage Systray — v0.1
-
-A small always-on-top widget for Windows that displays your Claude subscription usage at a glance. It shows three percentages — session (5-hour), weekly (all models), and weekly (Sonnet) — color-coded from green to red as you approach your limits. Click it to open a detailed usage dialog with progress bars, reset timers, and extra usage tracking.
-
-The widget sits above your taskbar and stays visible while you work. It polls the Anthropic API every 5 minutes, supports drag-to-reposition, and remembers its position between sessions. Right-click for quick access to refresh, settings, or the visual dialog. Settings include display scaling (1-400%), custom colors for usage thresholds, background color, and an option to launch on Windows startup.
-
-This is v0.1 and has not been heavily tested. There may be bugs. If you run into issues, use the "Report an Issue" option in the right-click menu to let us know.
